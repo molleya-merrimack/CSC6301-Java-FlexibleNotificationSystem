@@ -1,4 +1,4 @@
-# Flexible Notification System
+# Flexible Notification System - WhatsApp Service Addition
 
 ## How to Compile
 download all files from src directory
