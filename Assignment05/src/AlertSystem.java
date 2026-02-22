@@ -2,8 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Context class that uses a NotificationMedium
+ * Public class that uses a NotificationMedium
  * to send messages and maintain a log.
+ * Nothing in this was changed (except for this comment)
+ * for the addition of the WhatsAppService Notifcation.
  */
 public class AlertSystem {
 
@@ -11,14 +13,14 @@ public class AlertSystem {
     private final List<String> log;
 
     /**
-     * Constructs an AlertSystem with an empty message log.
+     * Constructor for an AlertSystem with an empty message log.
      */
     public AlertSystem() {
         this.log = new ArrayList<>();
     }
 
     /**
-     * Sets the notification medium.
+     * Method that sets the notification medium.
      *
      * @param medium the notification medium to use
      */
@@ -27,7 +29,7 @@ public class AlertSystem {
     }
 
     /**
-     * Sends a notification using the current medium
+     * Method that sends a notification using the current medium
      * and records the message in the log.
      *
      * @param message the message to send
@@ -44,7 +46,7 @@ public class AlertSystem {
     }
 
     /**
-     * Displays the message log.
+     * Method that displays the message log.
      */
     public void displayLog() {
         System.out.println("\nMessage Log:");

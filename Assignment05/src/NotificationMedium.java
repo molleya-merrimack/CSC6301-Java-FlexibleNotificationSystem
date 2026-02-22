@@ -1,5 +1,5 @@
 /**
- * Strategy interface for sending notifications.
+ * Interface for sending notifications.
  * Implementations define how a message is delivered.
  */
 public interface NotificationMedium {

@@ -1,9 +1,8 @@
 /**
  * FlexibleNotificationSystem - Java Application
- * Module 05: Software Development Cycle
+ * Module 05: Planning and Executing a Maintenance Task
  * CSC6301OM: Software Design & Documentation
  *
- * Entry point for the application.
  * Version 2.0 adds WhatsApp notification support.
  *
  * @author AMolley
@@ -21,15 +20,15 @@ public class Main {
         // Create an instance of AlertSystem
         AlertSystem alertSystem = new AlertSystem();
 
-        // Email notification
+        // Creates an instance of EmailService and sets it as the notification medium
         alertSystem.setMedium(new EmailService());
         alertSystem.notifyUser("This is your email.");
 
-        // SMS notification
+        // Creates an instance of SMSService and sets it as the notification medium
         alertSystem.setMedium(new SMSService());
         alertSystem.notifyUser("This is your SMS message.");
 
-        // WhatsApp notification
+        // Creates an instance of WhatsAppService and sets it as the notification medium
         alertSystem.setMedium(new WhatsAppService());
         alertSystem.notifyUser("WhatsApp is active and has a notification.");
 

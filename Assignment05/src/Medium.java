@@ -1,10 +1,14 @@
+/** 
+ * This file contains the classes of each medium
+ * and uses the implementations of NotificationMedium.
+ */
 /**
- * Concrete implementation for SMS notifications.
+ * Class with the implementation for SMS notifications.
  */
 class SMSService implements NotificationMedium {
 
     /**
-     * Sends an SMS message.
+     * Method that sends an SMS message.
      *
      * @param message the message to send
      */
@@ -14,12 +18,12 @@ class SMSService implements NotificationMedium {
     }
 }
 /**
- * Concrete implementation for email notifications.
+ * Class with the implementation for email notifications.
  */
 class EmailService implements NotificationMedium {
 
     /**
-     * Sends an email message.
+     * Method that sends an email message.
      *
      * @param message the message to send
      */
@@ -29,12 +33,12 @@ class EmailService implements NotificationMedium {
     }
 }
 /**
- * Concrete implementation for WhatsApp notifications.
+ * Class with the implementation for WhatsApp notifications.
  */
 class WhatsAppService implements NotificationMedium {
 
     /**
-     * Sends a WhatsApp message.
+     * Method that sends a WhatsApp message.
      *
      * @param message the message to send
      */
