@@ -6,7 +6,7 @@ This project implements a flexible notification system using
 object-oriented principles. A base notification abstraction
 defines the behavior for all notification types.
 
-Assignment04:
+Project04:
 - Supports Email and SMS notifications.
 - Each notification type implements the same interface.
 
