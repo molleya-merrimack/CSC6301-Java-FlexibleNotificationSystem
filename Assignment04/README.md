@@ -8,3 +8,11 @@ javac *.java
 
 ## How to Run
 java Main
+
+# Successful Run will say the following after Main is executed:
+Email sent: This is your email.
+SMS message sent: This is your SMS message.
+
+Message Log:
+- This is your email.
+- This is your SMS message.
